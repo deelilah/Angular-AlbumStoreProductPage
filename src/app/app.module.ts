@@ -8,13 +8,15 @@ import { ProductPageComponent } from './product-page/product-page.component';
 import { ProdunctDescriptionComponent } from './produnct-description/produnct-description.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 import {ProductService} from './product.service';
+import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductPageComponent,
     ProdunctDescriptionComponent,
-    ProductDescriptionComponent
+    ProductDescriptionComponent,
+    ProductTracklistingComponent
   ],
   imports: [
     BrowserModule,
